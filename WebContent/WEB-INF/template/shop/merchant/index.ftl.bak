@@ -1,0 +1,1174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>
+            社区O2O管理平台商户注册[#if systemShowPowered] - Powered By SHOP++[/#if]
+        </title>
+        <meta name="author" content="SHOP++ Team" />
+        <meta name="copyright" content="SHOP++" />
+        <link href="${base}/resources/shop/merchant/assets/bootstrap/css/bootstrap.min.css"
+        rel="stylesheet" />
+        <link href="${base}/resources/shop/merchant/assets/css/metro.css" rel="stylesheet"
+        />
+        <link href="${base}/resources/shop/merchant/assets/bootstrap/css/bootstrap-responsive.min.css"
+        rel="stylesheet" />
+        <link href="${base}/resources/shop/merchant/assets/font-awesome/css/font-awesome.css"
+        rel="stylesheet" />
+        <link href="${base}/resources/shop/merchant/assets/css/style.css" rel="stylesheet"
+        />
+        <link href="${base}/resources/shop/merchant/assets/css/style_responsive.css"
+        rel="stylesheet" />
+        <link href="${base}/resources/shop/merchant/assets/css/style_default.css"
+        rel="stylesheet" id="style_color" />
+        <link href="${base}/resources/shop/merchant/assets/fancybox/source/jquery.fancybox.css"
+        rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/gritter/css/jquery.gritter.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/uniform/css/uniform.default.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/chosen-bootstrap/chosen/chosen.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/bootstrap-datepicker/css/datepicker.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/bootstrap-timepicker/compiled/timepicker.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/bootstrap-colorpicker/css/colorpicker.css"
+        />
+        <link rel="stylesheet" href="${base}/resources/shop/merchant/assets/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css"
+        />
+        <link rel="stylesheet" href="${base}/resources/shop/merchant/assets/data-tables/DT_bootstrap.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/bootstrap-daterangepicker/daterangepicker.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/uniform/css/uniform.default.css"
+        />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/ztree/css/zTreeStyle/zTreeStyle.css"
+        />
+        <link rel="stylesheet" type="text/css" href="${base}/resources/shop/merchant/assets/jquery-ui/themes/base/jquery.ui.all.css"
+        />
+    </head>
+    <!-- END HEAD -->
+    <!-- BEGIN BODY -->
+    
+    <body class="fixed-top">
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container row-fluid">
+            <!-- BEGIN PAGE -->
+            <div class="page-content" style="margin-left: 112px; margin-right: 112px;">
+                <!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+                <div id="portlet-config" class="modal hide">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button">
+                        </button>
+                        <h3>
+                            portlet Settings
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Here will be a configuration form
+                        </p>
+                    </div>
+                </div>
+                <!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+                <!-- BEGIN PAGE CONTAINER-->
+                <div class="container-fluid">
+                    <!-- BEGIN PAGE HEADER-->
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <h3 class="page-title">
+                                商户注册
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- END PAGE HEADER-->
+                    <!-- BEGIN PAGE CONTENT-->
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="portlet box blue" id="form_wizard_1">
+                                <div class="portlet-title">
+                                    <h4>
+                                        <i class="icon-reorder">
+                                        </i>
+                                        注册向导 -
+                                        <span class="step-title">
+                                            Step 1 of 5
+                                        </span>
+                                    </h4>
+                                </div>
+                                <div class="portlet-body form">
+                                    <form class="form-horizontal">
+                                        <div class="form-wizard">
+                                            <div class="navbar steps">
+                                                <div class="navbar-inner">
+                                                    <ul class="row-fluid">
+                                                        <li class="span3" style="width: 17%; margin-left:0px;">
+                                                            <a id="tab1A" href="#tab1" data-toggle="tab" class="step active">
+                                                                <span class="number">
+                                                                    1
+                                                                </span>
+                                                                <span class="desc">
+                                                                    <i class="icon-ok">
+                                                                    </i>
+                                                                    账号信息
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="span3" style="width: 17%; margin-left:0px;">
+                                                            <a id="tab2A" href="#tab2" data-toggle="tab" class="step">
+                                                                <span class="number">
+                                                                    2
+                                                                </span>
+                                                                <span class="desc">
+                                                                    <i class="icon-ok">
+                                                                    </i>
+                                                                    商户信息
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="span3" style="width: 20%; margin-left:0px;">
+                                                            <a id="tab3A" href="#tab3" data-toggle="tab" class="step">
+                                                                <span class="number">
+                                                                    3
+                                                                </span>
+                                                                <span class="desc">
+                                                                    <i class="icon-ok">
+                                                                    </i>
+                                                                    企业基本信息
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="span3" style="width: 20%; margin-left:0px;">
+                                                            <a id="tab4A" href="#tab4" data-toggle="tab" class="step">
+                                                                <span class="number">
+                                                                    4
+                                                                </span>
+                                                                <span class="desc">
+                                                                    <i class="icon-ok">
+                                                                    </i>
+                                                                    企业法人信息
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="span3" style="width: 18%; margin-left:0px;">
+                                                            <a id="tab5A" href="#tab5" data-toggle="tab" class="step">
+                                                                <span class="number">
+                                                                    5
+                                                                </span>
+                                                                <span class="desc">
+                                                                    <i class="icon-ok">
+                                                                    </i>
+                                                                    银行账号信息
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="bar" class="progress progress-success progress-striped">
+                                                <div class="bar">
+                                                </div>
+                                            </div>
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="tab1">
+                                                    <h3 class="block">
+                                                        账号信息
+                                                    </h3>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            用户名
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="username" name="username" maxlength="32" />
+                                                            <span class="help-inline" id="usernameSpan">
+                                                                只能包含英文、数字、下划线且长度不少于6位
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            密码
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="password" class="span6 m-wrap" id="password" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="passwordSpan">
+                                                                长度不少于6位
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            请再次输入密码
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="password" class="span6 m-wrap" id="confirmPassword" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="confirmPasswordSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            商户中文名
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="realname" maxlength="32" />
+                                                            <span class="help-inline" id="realnameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            商户LOGO
+                                                        </label>
+                                                        <div class="controls">
+                                                        	<img id="logoFullPath" src="${base}/resources/shop/images/rqwrwfr.png" width="64" height="64" />
+                                                        	<input type="button" class="btn green" id="logoUploadButton" value="上传">
+                                                            <input type="hidden" class="span6 m-wrap" id="logo" maxlength="32">
+                                                            <span class="help-inline" id="logoSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            昵称
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="nickname" maxlength="32" />
+                                                            <span class="help-inline" id="nicknameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            头像
+                                                        </label>
+                                                        <div class="controls">
+                                                        	<img id="avatarFullPath" src="${base}/resources/shop/images/ewabdfbz.png" width="64" height="64" />
+                                                        	<input type="button" class="btn green" id="avatarUploadButton" value="上传">
+                                                            <input type="hidden" class="span6 m-wrap" id="avatar" maxlength="32">
+                                                            <span class="help-inline" id="avatarSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            所属社区
+                                                        </label>
+                                                        <div class="controls">
+                                                        	<input type="hidden" id="areaId" name="areaId" />
+                                                            <input type="hidden" class="span6 m-wrap" id="community" maxlength="32">
+                                                            <span class="help-inline" id="community">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div id="communityDiv" title="请选择社区">
+                                                        <ul id="communityTree" class="ztree">
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="tab2">
+                                                    <h3 class="block">
+                                                        商户信息
+                                                    </h3>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            翼支付账号
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bestpayAccount" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="bestpayAccountSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            ivr主叫号码
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input value="1" type="hidden" id="ivrAccountTable_maxcount" />
+                                                            <input value="1" type="hidden" id="ivrAccountTable_count" />
+                                                            <table id="ivrAccountTable" style="width: 58.71%;">
+                                                                <tr style="height: 40px;">
+                                                                    <td>
+                                                                        <input type="text" class="m-wrap span10" id="ivrAccount_1" maxlength="12"
+                                                                        />
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            二维码信息
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="qrcode" maxlength="128" />
+                                                            <span class="help-inline" id="qrcodeSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            主页
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="homePage" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="homePageSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            简介
+                                                        </label>
+                                                        <div class="controls">
+                                                            <textarea class="span6 m-wrap" rows="3" id="introduction" maxlength="512">
+                                                            </textarea>
+                                                            <span class="help-inline" id="introductionSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            商户类别
+                                                        </label>
+                                                        <div class="controls">
+                                                            <div class="chosen-container">
+                                                                <select id="channel" class="span6">
+                                                                    <option value="">
+                                                                        请选择
+                                                                    </option>
+                                                                    <option value="30">
+                                                                        平台配送
+                                                                    </option>
+                                                                    <option value="85">
+                                                                        活动
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            模板类型
+                                                        </label>
+                                                        <div class="controls">
+                                                            <div class="chosen-container">
+                                                                <select class="span6" id="templateType">
+                                                                <option value="14">商品计数器</option>
+                                                                <option value="5">卡券</option>
+                                                                <option value="6">团购券</option>
+                                                                <option value="7">电子门票</option>
+                                                                <option value="8">购物型</option>
+                                                                <option value="11">微名片</option>
+                                                                <option value="13">测试</option>
+                                                                <option value="21">测试经营盈利</option>
+                                                                <option value="9">资讯类</option>
+                                                                <option value="10">商品</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            是否盈利
+                                                        </label>
+                                                        <div class="controls" id="profitDiv">
+                                                        	<input id="profit1" type="radio" checked="" value="1" name="profit" />
+															<label class="radio">盈利</label>
+															<input id="profit2" type="radio" value="0" name="profit" />
+															<label class="radio">非盈利</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            商户等级
+                                                        </label>
+                                                        <div class="controls">
+                                                            <span class="help-inline" style="font-family: Open Sans; font-size: 14px; color: #000;">
+                                                                1级
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            审核开关
+                                                        </label>
+                                                        <div id="auditSwitchDiv" class="controls">
+                                                        <input type="radio" checked="" value="1" id="auditSwitch1" name="auditSwitch"><label class="radio">开</label>
+                                                        <input type="radio" value="0" id="auditSwitch2" name="auditSwitch"><label class="radio">关</label></div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            推送频率
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="pushFrequency" maxlength="16"
+                                                            />
+                                                            <span class="help-inline" id="pushFrequencySpan">
+                                                            </span>
+                                                            <br/>
+                                                            <span class="help-inline">
+                                                                每M天推送N次, 表示为M,N（逗号分隔）; 为空时, 不限制
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            结算类型
+                                                        </label>
+                                                        <div class="controls" id="billingTypeDiv">
+                                                        <input id="billingType1" type="radio" checked="" value="1" name="billingType">
+														<label class="radio">一级结算</label>
+														<input id="billingType2" type="radio" value="2" name="billingType">
+														<label class="radio">二级结算</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            结算周期
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="number" class="span6 m-wrap" id="billingCycle" maxlength="8"
+                                                            />
+                                                            <span class="help-inline" id="billingCycleSpan">
+                                                                单位：天
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            提成比率
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="number" class="span6 m-wrap" id="royaltyRate" maxlength="8"
+                                                            />
+                                                            <span class="help-inline" id="royaltyRateSpan">
+                                                                单位：%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            是否支持返利
+                                                        </label>
+                                                        <div class="controls" id="supportedRebateDiv">
+                                                        <input id="supportedRebate1" type="radio" checked="" value="1" name="supportedRebate">
+														<label class="radio">支持</label>
+														<input id="supportedRebate2" type="radio" value="0" name="supportedRebate">
+														<label class="radio">不支持</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label" style="color: grey;">
+                                                            退款信息
+                                                        </label>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            商品类型
+                                                        </label>
+                                                        <div class="controls">
+                                                            <div class="chosen-container">
+                                                                <select id="productType" class="span6">
+																	<option value="">请选择</option>
+																	<option value="1">消费卡</option>
+																	<option value="2">优惠券</option>
+																	<option value="3">电子门票</option>
+																	<option value="4">团购券</option>
+																	<option value="5">套餐</option>
+																	<option value="6">商品</option>
+																</select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            退费类型
+                                                        </label>
+                                                        <div class="controls" id="feeTypeDiv">
+                                                        <input id="feeType1" type="radio" checked="" value="1" name="feeType">
+														<label class="radio">比例</label>
+														<input id="feeType2" type="radio" value="2" name="feeType">
+														<label class="radio">金额</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            比例
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="number" class="span6 m-wrap" id="feeRatio" maxlength="10"
+                                                            />
+                                                            <span class="help-inline" id="feeRatioSpan">
+                                                                单位：%
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            固定金额
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="number" class="span6 m-wrap" id="feeAmount" maxlength="10"
+                                                            />
+                                                            <span class="help-inline" id="feeAmountSpan">
+                                                                单位：元
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="tab3">
+                                                    <h3 class="block">
+                                                        企业基本信息
+                                                    </h3>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            企业名称
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="enterpriseName" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="enterpriseNameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            营业执照注册号
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="businessLicenseNo" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="businessLicenseNoSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            营业执照所在地
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="businessLicenseAddress" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="businessLicenseAddressSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            营业期限
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="businessPeriod" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="businessPeriodSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            营业范围
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="businessRange" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="businessRangeSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            传真
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="fax" maxlength="32" />
+                                                            <span class="help-inline" id="faxSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            联系电话
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="phone" maxlength="32" />
+                                                            <span class="help-inline" id="phoneSpan">
+                                                                多个号码，用逗号分隔
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            邮箱
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="email" maxlength="32" />
+                                                            <span class="help-inline" id="emailSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            注册资金
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="number" class="span6 m-wrap" id="registeredCapital" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="registeredCapitalSpan">
+                                                                单位：万元
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            组织机构代码
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="organizationCode" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="organizationCodeSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            所属行业名称
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="industry" maxlength="32" />
+                                                            <span class="help-inline" id="industrySpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="tab4">
+                                                    <h3 class="block">
+                                                        企业法人信息
+                                                    </h3>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            真实姓名
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="legalPersonRealname" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="legalPersonRealnameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            身份证号
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="idCardNo" maxlength="18" />
+                                                            <span class="help-inline" id="idCardNoSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            电话
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="legalPersonPhone" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="legalPersonPhoneSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            归属地
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="legalPersonAddress" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="legalPersonAddressSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" id="tab5">
+                                                    <h3 class="block">
+                                                        银行账号信息
+                                                    </h3>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            开户名
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bankAccountName" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="bankAccountNameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            开户银行
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bankName" maxlength="32" />
+                                                            <span class="help-inline" id="bankNameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            开户银行支行名称
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bankBranchName" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="bankBranchNameSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            银行地址
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bankAddress" maxlength="128"
+                                                            />
+                                                            <span class="help-inline" id="bankAddressSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="control-group">
+                                                        <label class="control-label">
+                                                            <em style="color: red;">
+                                                                *
+                                                            </em>
+                                                            公司对公账号
+                                                        </label>
+                                                        <div class="controls">
+                                                            <input type="text" class="span6 m-wrap" id="bankAccount" maxlength="32"
+                                                            />
+                                                            <span class="help-inline" id="bankAccountSpan">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-actions clearfix">
+                                                <a href="javascript:;" class="btn button-previous">
+                                                    <i class="m-icon-swapleft">
+                                                    </i>
+                                                    返回
+                                                </a>
+                                                <a href="javascript:;" class="btn blue button-next">
+                                                    下一步
+                                                    <i class="m-icon-swapright m-icon-white">
+                                                    </i>
+                                                </a>
+                                                <button type="submit" class="btn green button-submit">
+                                                    提交
+                                                    <i class="m-icon-swapright m-icon-white">
+                                                    </i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PAGE CONTENT-->
+                </div>
+                <!-- END PAGE CONTAINER-->
+            </div>
+            <!-- END PAGE -->
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="footer" style="text-align: center;">
+            2014 &copy; 福富软件.
+            <div class="span pull-right">
+                <span class="go-top">
+                    <i class="icon-angle-up">
+                    </i>
+                </span>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        <!-- BEGIN JAVASCRIPTS -->
+        <!-- Load javascripts at bottom, this will reduce page load time -->
+        <script src="${base}/resources/shop/merchant/assets/js/jquery-1.8.3.min.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/breakpoints/breakpoints.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/bootstrap/js/bootstrap.min.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/bootstrap-wizard/jquery.bootstrap.wizard.min.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/jquery.blockui.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/jquery.cookie.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/jquery.url.js">
+        </script>
+        <!-- ie8 fixes -->
+        <!--[if lt IE 9]>
+            <script src="${base}/resources/shop/merchant/assets/js/excanvas.js">
+            </script>
+            <script src="${base}/resources/shop/merchant/assets/js/respond.js">
+            </script>
+        <![endif]-->
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/data-tables/jquery.dataTables.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/data-tables/DT_bootstrap.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/chosen-bootstrap/chosen/chosen.jquery.min.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/uniform/jquery.uniform.min.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-datepicker/js/bootstrap-datepicker.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-daterangepicker/date.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-daterangepicker/daterangepicker.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/merchant/assets/bootstrap-timepicker/js/bootstrap-timepicker.js">
+        </script>
+        <script type="text/javascript" src="ckfinder/ckfinder.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/app.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/model.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/account.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/js/status.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/ztree/js/jquery.ztree.core-3.4.min.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/ztree/js/jquery.ztree.excheck-3.4.min.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/ztree/js/ztree.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.core.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.widget.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.mouse.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.button.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.draggable.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.position.js">
+        </script>
+        <script src="${base}/resources/shop/merchant/assets/jquery-ui/jquery.ui.dialog.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/js/ajaxupload.js">
+        </script>
+        <script type="text/javascript" src="${base}/resources/shop/js/jquery.lSelect.js">
+        </script>
+        <script>
+            jQuery(document).ready(function() {
+            var $areaId = $("#areaId");
+            
+            // 地区选择
+			$areaId.lSelect({
+				url: "${base}/common/area.jhtml"
+			});
+            
+            
+            var button1 = $("#logoUploadButton");
+            var button2 = $("#avatarUploadButton");
+			var exts = "jpg|png|jpeg|gif", paths = "|";
+			new AjaxUpload(
+				button1,
+				{
+					action : '${base}/payment/upload.jhtml',
+					name : 'uploadFile',
+					onSubmit : function(file, ext) {
+						if (!RegExp("\.(?:" + exts + ")$$", "i").test(file)) {
+							alert("只能上传以下类型：" + exts);
+							return false;
+						}
+					},
+					onComplete : function(file, response, statusText) {
+						jsonData = eval("(" + response + ")");
+						if (jsonData.rtnKey == 0) {
+							alert(jsonData.rtnMsg);
+						} else {
+							document.getElementById("logo").value = jsonData.path;
+							document.getElementById("logoFullPath").src = jsonData.fullPath;
+							alert(jsonData.rtnMsg);
+						}
+					}
+				});
+				new AjaxUpload(
+				button2,
+				{
+					action : '${base}/payment/upload.jhtml',
+					name : 'uploadFile',
+					onSubmit : function(file, ext) {
+						if (!RegExp("\.(?:" + exts + ")$$", "i").test(file)) {
+							alert("只能上传以下类型：" + exts);
+							return false;
+						}
+					},
+					onComplete : function(file, response, statusText) {
+						jsonData = eval("(" + response + ")");
+						if (jsonData.rtnKey == 0) {
+							alert(jsonData.rtnMsg);
+						} else {
+							document.getElementById("avatar").value = jsonData.path;
+							document.getElementById("avatarFullPath").src = jsonData.fullPath;
+							alert(jsonData.rtnMsg);
+						}
+					}
+				});
+            
+            	
+            
+            
+
+
+                App.init();
+
+                $('#tab1A').unbind("click");
+                $('#tab2A').unbind("click");
+                $('#tab3A').unbind("click");
+                $('#tab4A').unbind("click");
+                $('#tab5A').unbind("click");
+
+                $('#username').on("blur",
+                function() {
+                    checkUsername("");
+                });
+
+                $('button[type=submit]').click(function() {
+                    var result = checkUsername(""); // 校验用户名
+                    if (!result) {
+                        return;
+                    }
+
+                    var password = $('#password').val();
+                    if (password == null || password.length == 0) {
+                        alert("密码不能为空");
+                        return;
+                    } else if (password.length < 6) {
+                        alert("密码长度不能少于6位");
+                        return;
+                    }
+
+                    var confirmPassword = $('#confirmPassword').val();
+                    if (confirmPassword == null || confirmPassword.length == 0) {
+                        alert("再次输入密码不能为空");
+                        return;
+                    } else if (confirmPassword.length < 6) {
+                        alert("再次输入密码长度不能少于6位");
+                        return;
+                    }
+                    var realname = $('#realname').val();
+                    if (realname == null || realname.length == 0) {
+                        alert("商户中文名不能为空");
+                        return;
+                    }
+
+                    if ($areaId == null || $areaId.length == 0) {
+                        alert("社区为空");
+                        return;
+                    }
+
+                    if (password != confirmPassword) {
+                        $('#password').attr("value", "");
+                        $('#confirmPassword').attr("value", "");
+                        alert("密码与再次输入密码不一致，请重新输入");
+                        return;
+                    }
+
+                    var json = {};
+                    json.username = $('#username').val();
+                    json.password = password;
+                    json.realname = $('#realname').val();
+                    json.nickname = $('#nickname').val();
+                    json.avatar = $('#avatar').val();
+                    json.areaId = $('#areaId').val();
+                    json.bestpayAccount = $('#bestpayAccount').val();
+
+                    var ivrAccount = $('#ivrAccount_1').val();
+                    if (ivrAccount != '' && !ivrAccountCheck(ivrAccount, 1)) {
+                        return false;
+                    }
+                    var allType = $("#ivrAccountTable input");
+                    var index = 1;
+                    for (var i = 1; i < allType.length; i++) {
+                        var re = /\d+/;
+                        elementID = allType[i].id.toString().match(re)[0];
+                        if (document.getElementById('ivrAccount_' + elementID) != undefined && document.getElementById('ivrAccount_' + elementID).value != '') {
+                            var ivrAccount_ = document.getElementById('ivrAccount_' + elementID).value;
+                            if (!ivrAccountCheck(ivrAccount_, index)) {
+                                return false;
+                            }
+                            ivrAccount += "|" + ivrAccount_;
+                            index++;
+                        }
+                    }
+
+                    json.ivrAccount = ivrAccount;
+                    json.qrcode = $('#qrcode').val();
+                    json.homePage = $('#homePage').val();
+                    json.introduction = $('#introduction').val();
+                    json.channelId = $('#channel').val();
+                    json.templateType = $('#templateType').val();
+                    json.profit = $('input[name=profit]:checked').val();
+                    json.auditSwitch = $('input[name=auditSwitch]:checked').val();
+                    json.pushFrequency = $('#pushFrequency').val();
+                    json.billingType = $('input[name=billingType]:checked').val();
+                    json.billingCycle = $('#billingCycle').val();
+                    json.supportedRebate = $('input[name=supportedRebate]:checked').val();
+                    json.royaltyRate = $('#royaltyRate').val();
+                    json.productType = $('#productType').val();
+                    json.feeType = $('input[name=feeType]:checked').val();
+                    json.feeRatio = $('#feeRatio').val();
+                    json.feeAmount = $('#feeAmount').val();
+                    json.enterpriseName = $('#enterpriseName').val();
+                    json.businessLicenseNo = $('#businessLicenseNo').val();
+                    json.businessLicenseAddress = $('#businessLicenseAddress').val();
+                    json.businessPeriod = $('#businessPeriod').val();
+                    json.businessRange = $('#businessRange').val();
+                    json.fax = $('#fax').val();
+                    json.phone = $('#phone').val();
+                    json.email = $('#email').val();
+                    json.registeredCapital = $('#registeredCapital').val();
+                    json.organizationCode = $('#organizationCode').val();
+                    json.industry = $('#industry').val();
+                    json.legalPersonRealname = $('#legalPersonRealname').val();
+                    json.idCardNo = $('#idCardNo').val();
+                    json.legalPersonPhone = $('#legalPersonPhone').val();
+                    json.legalPersonAddress = $('#legalPersonAddress').val();
+                    json.bankAccountName = $('#bankAccountName').val();
+                    json.bankName = $('#bankName').val();
+                    json.bankBranchName = $('#bankBranchName').val();
+                    json.bankAddress = $('#bankAddress').val();
+                    json.bankAccount = $('#bankAccount').val();
+                    json.logo = $('#logo').val();
+                    var data = JSON.stringify(json);
+
+                    $.ajax({
+                        type: "GET",
+                        url: "${base}/shop/merchant/save.jhtml",
+                        data: {"data":data},
+                        contentType: "application/json",
+                        dataType: "json",
+                        success: function(msg) {
+                            var result = msg.message;
+                            // alert("here, msg: "+msg);
+                            if (result.indexOf("注册成功") >= 0) {
+                                alert(result);
+                                document.location.href = "index.jsp";
+                            } else {
+                                alert(result);
+                            }
+                        },
+                        error: function(msg) {
+                            var result = msg.message;
+                            // alert("here, msg: "+msg);
+                            if (result.indexOf("注册成功") >= 0) {
+                                alert(result);
+                                document.location.href = "index.jsp";
+                            } else {
+                                alert(result);
+                            }
+                        }
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+        <!-- END JAVASCRIPTS -->
+    </body>
+    <!-- END BODY -->
+
+</html>
